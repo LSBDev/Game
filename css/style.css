@@ -1,0 +1,109 @@
+@font-face {
+  font-family: Starjedi;
+  src: url(../assets/Starjedi.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 30px;
+  background: #0e0e12;
+}
+h1 {
+  color: #E6B93C;
+  font-family: starjedi;
+}
+.sabre {
+  width: 350px;
+  height: 100px;
+  margin-top: -65px;
+  padding: 0;
+  background: transparent;
+  position: relative;
+}
+.darth-Vader {
+  width: 300px;
+}
+.palavra {
+  color: #E6B93C;
+  font-size: 42px;
+}
+.letra {
+  border: 1px solid #E6B93C;
+}
+button {
+  background: #4894c3;
+  color: #ffffff;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 12px 24px;
+  text-transform: uppercase;
+}
+/* imagem aparecendo */
+.boneco {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.darth-vader {
+  width: 300px;
+}
+.cabeca {
+  background: #0e0e13;
+  width: 300px;
+  height: 120px;
+
+  position: absolute;
+  top: 0;
+}
+.braco-esquerdo {
+  background: #0e0e13;
+  width: 100px;
+  height: 160px;
+  position: absolute;
+  left: 0;
+}
+.torso {
+  background: #0e0e13;
+  width: 100px;
+  height: 160px;
+  position: absolute;
+  left: 100px;
+}
+.braco-direito {
+  background: #0e0e13;
+  width: 100px;
+  height: 160px;
+  position: absolute;
+  right: 0;
+}
+.perna-esquerda {
+  background: #0e0e13;
+  width: 155px;
+  height: 160px;
+  position: absolute;
+  left: 0;
+  top: 190px;
+}
+.perna-direita {
+  background: #0e0e13;
+  width: 155px;
+  height: 160px;
+  position: absolute;
+  right: 0;
+  top: 190px;
+}
+.mostrar {
+  background: transparent;
+}
